@@ -2,6 +2,7 @@ import * as React from "react"
 import { graphql } from "gatsby"
 import Header from "../components/Header"
 import Hero from "../components/Hero"
+import Features from "../components/Features"
 import SliceZone from "../components/SliceZone"
 
 const IndexPage = ({ data }) => {
@@ -13,6 +14,7 @@ const IndexPage = ({ data }) => {
       <Header />
       <Hero />
       <SliceZone sliceZone={document.body} />
+      <Features />
     </>
   )
 }
@@ -31,6 +33,9 @@ export const query = graphql`
                   }
                   service_description {
                     text
+                  }
+                  icon {
+                    url
                   }
                 }
                 slice_type

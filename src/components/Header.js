@@ -5,9 +5,9 @@ const Header = () => {
     <div className='bg-primaryBlue w-100'>
       <nav className='max-w-6xl flex justify-between mx-auto text-white pt-6 '>
         <div className='px-4 md:px-0'>
-          <h2 className='m-0 uppercase tracking-widest text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-primaryOrange to-white'>
+          <h3 className='m-0 uppercase tracking-widest text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-primaryOrange to-white'>
             Netti Design
-          </h2>
+          </h3>
         </div>
         <div className='flex items-center'>
           <ul className='flex justify-evenly flex-wrap'>
