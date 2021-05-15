@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    font-family: Merriweather;
+    font-weight: 800;
+    font-size: 48px;
+    margin: 0;
+    line-height: 1;
+    margin-bottom: 35px;
+  }
+  button {
+    font-weight: bold;
+    letter-spacing: 1.5px;
+  }
+  h2 {
+    @apply text-3xl;
+  }
+  nav > div > ul > li {
+    font-size: 18px;
+  }
+  p {
+    font-family: Open Sans;
+  }
+}

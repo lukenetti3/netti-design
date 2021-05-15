@@ -1,0 +1,130 @@
+{
+  "Main": {
+    "hero_title": {
+      "type": "StructuredText",
+      "config": {
+        "single": "heading1",
+        "label": "Hero Title",
+        "placeholder": "Enter title here"
+      }
+    },
+    "right_column_image": {
+      "type": "Image",
+      "config": {
+        "constraint": {},
+        "thumbnails": [],
+        "label": "Right Column Image"
+      }
+    },
+    "background_image": {
+      "type": "Image",
+      "config": {
+        "constraint": {},
+        "thumbnails": [],
+        "label": "Background Image"
+      }
+    },
+    "primary_button_link": {
+      "type": "Link",
+      "config": {
+        "label": "Primary Button Link",
+        "placeholder": "Enter primary button URL"
+      }
+    },
+    "primary_button_text": {
+      "type": "StructuredText",
+      "config": {
+        "single": "paragraph",
+        "label": "Primary Button Text",
+        "placeholder": "Enter text for primary button"
+      }
+    },
+    "secondary_button_url": {
+      "type": "Link",
+      "config": {
+        "label": "Secondary Button URL",
+        "placeholder": "Enter secondary button URL"
+      }
+    },
+    "secondary_button_text": {
+      "type": "StructuredText",
+      "config": {
+        "single": "paragraph",
+        "label": "Secondary Button Text",
+        "placeholder": "Enter secondary button text here"
+      }
+    },
+    "body": {
+      "type": "Slices",
+      "fieldset": "Slice zone",
+      "config": {
+        "labels": {
+          "services": [],
+          "testimonials": []
+        },
+        "choices": {
+          "services": {
+            "type": "Slice",
+            "fieldset": "Services",
+            "description": "Services section",
+            "icon": "build",
+            "display": "list",
+            "non-repeat": {},
+            "repeat": {
+              "service": {
+                "type": "StructuredText",
+                "config": {
+                  "single": "heading2",
+                  "label": "Service",
+                  "placeholder": "Enter service item here..."
+                }
+              },
+              "service_description": {
+                "type": "StructuredText",
+                "config": {
+                  "multi": "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, rtl",
+                  "label": "Sevice Description",
+                  "placeholder": "Enter the service description here..."
+                }
+              }
+            }
+          },
+          "testimonials": {
+            "type": "Slice",
+            "fieldset": "Testimonials",
+            "description": "Testimonials section",
+            "icon": "format_quote",
+            "display": "list",
+            "non-repeat": {},
+            "repeat": {
+              "image": {
+                "type": "Image",
+                "config": {
+                  "constraint": {},
+                  "thumbnails": [],
+                  "label": "Image"
+                }
+              },
+              "name": {
+                "type": "StructuredText",
+                "config": {
+                  "single": "heading3",
+                  "label": "Name",
+                  "placeholder": "Testimonial name"
+                }
+              },
+              "testimonial_text": {
+                "type": "StructuredText",
+                "config": {
+                  "multi": "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, rtl",
+                  "label": "Testimonial Text",
+                  "placeholder": "Actual testimonial..."
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
