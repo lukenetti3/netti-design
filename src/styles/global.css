@@ -28,3 +28,9 @@
     font-size: 18px;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  #service-media-query {
+    background-color: white;
+  }
+}

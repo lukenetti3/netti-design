@@ -10,7 +10,7 @@ const ServiceCard = ({ props }) => {
   }
 
   return (
-    <div className='w-1/3 bg-lightBlue mx-6 px-12 pb-20 rounded-lg flex justify-center'>
+    <div className='bg-lightBlue m-6 px-12 pb-20 rounded-lg flex justify-center'>
       <div className='text-center'>
         <img src={props.icon.url} style={iconStyle} />
         <h3 key={props.service.text} className='text-blueText pb-3'>
