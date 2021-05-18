@@ -54,6 +54,62 @@
         "placeholder": "Enter secondary button text here"
       }
     },
+    "benefits_text": {
+      "type": "StructuredText",
+      "config": {
+        "multi": "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, rtl",
+        "label": "Benefits Text",
+        "placeholder": "Enter what I do text here..."
+      }
+    },
+    "fast_websites_text": {
+      "type": "StructuredText",
+      "config": {
+        "multi": "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, rtl",
+        "label": "Fast Websites text",
+        "placeholder": "Enter fast websites text here"
+      }
+    },
+    "fast_websites_icon": {
+      "type": "Image",
+      "config": {
+        "constraint": {},
+        "thumbnails": [],
+        "label": "Fast Websites Icon"
+      }
+    },
+    "messaging_text": {
+      "type": "StructuredText",
+      "config": {
+        "multi": "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, rtl",
+        "label": "Messaging Text",
+        "placeholder": "Enter messaging text here"
+      }
+    },
+    "messaging_icon": {
+      "type": "Image",
+      "config": {
+        "constraint": {},
+        "thumbnails": [],
+        "label": "Messaging Icon"
+      }
+    },
+    "seo_text": {
+      "type": "StructuredText",
+      "config": {
+        "multi": "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, rtl",
+        "label": "SEO Text",
+        "placeholder": "Enter SEO text here"
+      }
+    },
+    "seo_icon": {
+      "type": "Image",
+      "config": {
+        "constraint": {},
+        "thumbnails": [],
+        "label": "SEO Icon"
+      }
+    },
     "body": {
       "type": "Slices",
       "fieldset": "Slice zone",
